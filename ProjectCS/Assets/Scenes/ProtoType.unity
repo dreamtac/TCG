@@ -33509,6 +33509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Board
       objectReference: {fileID: 0}
+    - target: {fileID: 5040424781913131290, guid: af6f97aff78dc9247b4ae76638fb35d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5672564169920107424, guid: af6f97aff78dc9247b4ae76638fb35d7, type: 3}
       propertyPath: m_RootOrder
       value: 0
