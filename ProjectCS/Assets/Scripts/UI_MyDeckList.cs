@@ -29,18 +29,31 @@ public class UI_MyDeckList : MonoBehaviour
 
     public void AddCardList(Cards card)
     {
-        if(cardList.Count != 30)
+        if (cardList.Count != 30)
         {
-            //리스트가 30 이하라면 리스트에 카드 추가
+            // 리스트가 30 이하라면 리스트에 카드 추가
+            if (cardList.Count != 0)
+            {
+                int sameCardCount = 0; // 같은 카드 개수 초기화
+                for (int i = 0; i < cardList.Count; i++)
+                {
+                    if (cardList[i].name.Equals(card.name))
+                    {
+                        sameCardCount++;
+                        Debug.Log("중복 카드 : " + sameCardCount);
+                    }
+                }
+
+                if (sameCardCount == 2)
+                {
+                    return;
+                }
+            }
             cardList.Add(card);
             deckListBtn.GetComponentInChildren<TextMeshProUGUI>().text = card.name;
             Instantiate(deckListBtn, transform.position, transform.rotation).transform.SetParent(gameObject.transform, false);
             TMP_Totalcard.text = cardList.Count.ToString() + " / 30";
-            //AddBtn();
-        }
-        else
-        {
-            Debug.Log("덱에 넣을 수 있는 최대 카드수 초과!!!");
+
         }
     }
 
