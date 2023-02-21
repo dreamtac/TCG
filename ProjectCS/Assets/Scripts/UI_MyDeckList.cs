@@ -51,7 +51,8 @@ public class UI_MyDeckList : MonoBehaviour
             }
             cardList.Add(card);
             deckListBtn.GetComponentInChildren<TextMeshProUGUI>().text = card.name;
-            Instantiate(deckListBtn, transform.position, transform.rotation).transform.SetParent(gameObject.transform, false);
+            //Instantiate(deckListBtn, transform.position, transform.rotation).transform.SetParent(gameObject.transform, false);
+            Instantiate(deckListBtn, new Vector3(0,0,0), Quaternion.Euler(0, 0, 0)).transform.SetParent(gameObject.transform, false);
             TMP_Totalcard.text = cardList.Count.ToString() + " / 30";
 
         }
