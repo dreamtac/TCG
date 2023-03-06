@@ -15,6 +15,7 @@ public class CardSelecter : MonoBehaviour
     [SerializeField] private TMP_Text attackText;
     [SerializeField] private TMP_Text healthText;
     [SerializeField] private TMP_Text costText;
+    [SerializeField] private TMP_Text textTMP;
 
     public List<Cards> cardBuffer;
     public List<GameObject> slot;
@@ -30,6 +31,7 @@ public class CardSelecter : MonoBehaviour
         attackText = cardPrefab.transform.Find("Attack").gameObject.GetComponent<TextMeshProUGUI>();
         healthText = cardPrefab.transform.Find("Health").gameObject.GetComponent<TextMeshProUGUI>();
         costText = cardPrefab.transform.Find("Cost").gameObject.GetComponent<TextMeshProUGUI>();
+        textTMP = cardPrefab.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
 
         for (int i = 0; i < allCards.cards.Length; i++)
         {
@@ -61,6 +63,7 @@ public class CardSelecter : MonoBehaviour
                     attackText.text = cardBuffer[i].attack.ToString();
                     healthText.text = cardBuffer[i].health.ToString();
                     costText.text = cardBuffer[i].cost.ToString();
+                    textTMP.text = cardBuffer[i].text.ToString();
                     cardPrefab.GetComponent<UI_CardBtn>().cardInfo = cardBuffer[i];
                     Instantiate(cardPrefab, slot[slotCount].transform);
                     slotCount++;

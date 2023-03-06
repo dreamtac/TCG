@@ -15,6 +15,7 @@ MonoBehaviour:
   cards:
   - name: "\uAC01\uCCAD"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 2
@@ -23,6 +24,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 0134471d58c3c81499618384314f9bab, type: 3}
   - name: "\uB77C\uC774\uB374"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 4
@@ -31,6 +33,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 9387f9bc775102d4dbe82d8ea052666f, type: 3}
   - name: "\uBCA4\uD2F0"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 3
@@ -39,6 +42,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 9ca35332d92b36c459f42858584010d7, type: 3}
   - name: "\uD589\uCD94"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 1
@@ -47,6 +51,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 164dd750bfbe8044b8c24687714ce8f8, type: 3}
   - name: "\uC5EC\uD589\uC790"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 1
@@ -55,6 +60,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 7be4752de9b473e4194ecacab5ecb8fa, type: 3}
   - name: "\uAE30\uC0AC"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 1
@@ -63,6 +69,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 9a8fa848f0231fb4597f742275621af1, type: 3}
   - name: "\uB9C8\uBC95\uC0AC"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 2
@@ -71,6 +78,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 678b4c916cbe92843839ae4968cb83dd, type: 3}
   - name: "\uB291\uB300"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 1
@@ -79,6 +87,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 0677b9a5bec28e542bca64866d458ba8, type: 3}
   - name: "\uD22C\uC11D\uAE30"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 3
@@ -87,6 +96,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 350b40184d1f1e945b89b84d18d1dbce, type: 3}
   - name: "\uC5D8\uB354 \uB4DC\uB798\uACE4"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 5
@@ -95,6 +105,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 4e3c02522114f1b4ea6b8ea26c6b6236, type: 3}
   - name: "\uBE14\uB8E8 \uB4DC\uB798\uACE4"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 5
@@ -103,6 +114,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 1019a2cbe7ac8444e89b42d3c088bb8f, type: 3}
   - name: "\uAE30\uBCD1"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 4
@@ -111,6 +123,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 47962d4e6d60c1c4bafa0eb6de957881, type: 3}
   - name: "\uC911\uAC11\uAE30\uC0AC"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 5
@@ -119,6 +132,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 8d6d27d4e57301f4aa3622b57b68d417, type: 3}
   - name: "\uC6B4\uB514\uB124"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 3
@@ -127,6 +141,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: ed9b7ebaafc18564a86f6869d8ef6d52, type: 3}
   - name: "\uADF8\uB9AC\uD3F0"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 7
@@ -135,6 +150,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 903f1f642921a3444809874e1030201f, type: 3}
   - name: "\uC790\uC774\uC5B8\uD2B8 \uC6DC"
     type: "\uD558\uC218\uC778"
+    text: "\uD558\uC218\uC778"
     magicType: 0
     magicValue: 0
     cost: 6
@@ -143,6 +159,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 1ccc0ee5042bd6845a8fadd16ee05615, type: 3}
   - name: "\uD3ED\uD48D"
     type: "\uB9C8\uBC95"
+    text: "\uC0C1\uB300 \uD544\uB4DC \uC804\uCCB4 3 \uB370\uBBF8\uC9C0"
     magicType: 1
     magicValue: 3
     cost: 5
@@ -151,6 +168,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 8255afc682ddebe44b4c6c6616941466, type: 3}
   - name: "\uB2E8\uB450\uB300"
     type: "\uB9C8\uBC95"
+    text: "\uC0C1\uB300 \uD544\uB4DC \uC704 \uCE74\uB4DC 1\uC7A5 \uD30C\uAD34"
     magicType: 2
     magicValue: 99
     cost: 3
@@ -159,6 +177,7 @@ MonoBehaviour:
     characterImage: {fileID: 21300000, guid: 5efc1c56473950445ada4ee2e86c1875, type: 3}
   - name: "\uAE34\uAE09 \uBCF4\uAE09"
     type: "\uB9C8\uBC95"
+    text: "2\uC7A5 \uB4DC\uB85C\uC6B0"
     magicType: 3
     magicValue: 2
     cost: 3

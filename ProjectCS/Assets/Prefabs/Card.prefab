@@ -730,6 +730,7 @@ MonoBehaviour:
   attackTMP: {fileID: 689287989795688862}
   healthTMP: {fileID: 689287989631814242}
   costTMP: {fileID: 3397123490027801956}
+  textTMP: {fileID: 696818085928146967}
   type: 
   originPRS:
     pos: {x: 0, y: 0, z: 0}
@@ -740,6 +741,7 @@ MonoBehaviour:
   cost: 0
   attack: 0
   health: 0
+  text: 
   isFront: 0
   isField: 0
   attackable: 0

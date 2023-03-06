@@ -8,6 +8,7 @@ public class Cards
 {
     public string name;
     public string type;
+    public string text;
     public int magicType;
     public int magicValue;
     public int cost;

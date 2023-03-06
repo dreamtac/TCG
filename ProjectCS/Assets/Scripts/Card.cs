@@ -16,14 +16,16 @@ public class Card : MonoBehaviour
     [SerializeField] TMP_Text attackTMP;
     [SerializeField] TMP_Text healthTMP;
     [SerializeField] TMP_Text costTMP;
+    [SerializeField] TMP_Text textTMP;
     public string type;
     public PRS originPRS;
     public GameObject damageImage;
 
     public string cardName;
-    public int cost;
-    public int attack;
-    public int health;
+    public int cost;                        //카드 코스트(비용)
+    public int attack;                      //카드 공격력
+    public int health;                      //카드 생명력
+    public string text;                     //카드 설명 텍스트
     public bool isFront;                    //나의 카드라면 True
     public bool isField;                    //필드 위에 소환되어 있다면 True
     public bool attackable;                 //공격 가능?
@@ -57,6 +59,7 @@ public class Card : MonoBehaviour
         this.isFront = isFront;
         this.attack = card.attack;
         this.health = card.health;
+        this.text = card.text;
 
         if (this.isFront) 
         {   //내 카드 일 때
@@ -64,6 +67,8 @@ public class Card : MonoBehaviour
             character.sprite = this.cards.characterImage;
             nameTMP.text = this.cards.name;
             costTMP.text = cost.ToString();
+            textTMP.text = text.ToString();
+            
             if(type == "마법")
             {
                 attackTMP.text = "";
@@ -76,6 +81,7 @@ public class Card : MonoBehaviour
                 attackTMP.text = attack.ToString();
                 healthTMP.text = health.ToString();
             }
+
             gameObject.transform.rotation = Quaternion.Euler(0,-180, 0);
             attackable = true;
             CardAlignment(true);
@@ -86,6 +92,8 @@ public class Card : MonoBehaviour
             character.sprite = this.cards.characterImage;
             nameTMP.text = this.cards.name;
             costTMP.text = this.cards.cost.ToString();
+            textTMP.text = text.ToString();
+            
             if (type == "마법")
             {
                 attackTMP.text = "";
@@ -98,6 +106,7 @@ public class Card : MonoBehaviour
                 attackTMP.text = attack.ToString();
                 healthTMP.text = health.ToString();
             }
+
             gameObject.transform.rotation = Quaternion.Euler(0, 0, 180);
             attackable = true;
             CardAlignment(false);
